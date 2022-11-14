@@ -1,0 +1,309 @@
+schemes:
+  tokyonight: &tokyonight
+    # Default colors
+    primary:
+      background: '0x1a1b26'
+      foreground: '0xc0caf5'
+  
+    # Normal colors
+    normal:
+      black:   '0x15161e'
+      red:     '0xf7768e'
+      green:   '0x9ece6a'
+      yellow:  '0xe0af68'
+      blue:    '0x7aa2f7'
+      magenta: '0xbb9af7'
+      cyan:    '0x7dcfff'
+      white:   '0xa9b1d6'
+  
+    # Bright colors
+    bright:
+      black:   '0x414868'
+      red:     '0xf7768e'
+      green:   '0x9ece6a'
+      yellow:  '0xe0af68'
+      blue:    '0x7aa2f7'
+      magenta: '0xbb9af7'
+      cyan:    '0x7dcfff'
+      white:   '0xc0caf5'
+  
+    indexed_colors:
+      - { index: 16, color: '0xff9e64' }
+      - { index: 17, color: '0xdb4b4b' }
+  mellow: &mellow
+    primary:
+      background: '#161617'
+      foreground: '#c9c7cd'
+  
+    # Cursor colors
+    cursor:
+      text: '#c9c7cd'
+      cursor: '#757581'
+  
+    # Normal colors
+    normal:
+      black:   '#27272a'
+      red:     '#f5a191'
+      green:   '#90b99f'
+      yellow:  '#e6b99d'
+      blue:    '#aca1cf'
+      magenta: '#e29eca'
+      cyan:    '#ea83a5'
+      white:   '#c1c0d4'
+  
+    # Bright colors
+    bright:
+      black:   '#353539'
+      red:     '#ffae9f'
+      green:   '#9dc6ac'
+      yellow:  '#f0c5a9'
+      blue:    '#b9aeda'
+      magenta: '#ecaad6'
+      cyan:    '#f591b2'
+      white:   '#cac9dd'
+
+  carbonfox: &carbonfox
+    primary:
+      background: '0x161616'
+      foreground: '0xf2f4f8'
+    normal:
+      black:   '0x282828'
+      red:     '0xee5396'
+      green:   '0x25be6a'
+      yellow:  '0x08bdba'
+      blue:    '0x78a9ff'
+      magenta: '0xbe95ff'
+      cyan:    '0x33b1ff'
+      white:   '0xdfdfe0'
+    # Bright colors
+    bright:
+      black:   '0x484848'
+      red:     '0xf16da6'
+      green:   '0x46c880'
+      yellow:  '0x2dc7c4'
+      blue:    '0x8cb6ff'
+      magenta: '0xc8a5ff'
+      cyan:    '0x52bdff'
+      white:   '0xe4e4e5'
+    indexed_colors:
+      - { index: 16, color: '0x3ddbd9' }
+      - { index: 17, color: '0xff7eb6' }
+  selenized: &selenized
+    primary:
+      background: '0x181818'
+      foreground: '0xb9b9b9'
+    normal:
+      black:   '0x252525'
+      red:     '0xed4a46'
+      green:   '0x70b433'
+      yellow:  '0xdbb32d'
+      blue:    '0x368aeb'
+      magenta: '0xeb6eb7'
+      cyan:    '0x3fc5b7'
+      white:   '0x777777'
+    bright:
+      black:   '0x3b3b3b'
+      red:     '0xff5e56'
+      green:   '0x83c746'
+      yellow:  '0xefc541'
+      blue:    '0x4f9cfe'
+      magenta: '0xff81ca'
+      cyan:    '0x56d8c9'
+      white:   '0xdedede'
+  
+  spacecamp: &spacecamp
+    # Default colors
+    primary:
+      background: '0x121212'
+      foreground: '0xd0d0d0'
+
+    # Normal colors
+    normal:
+      black:   '0x282828'
+      red:     '0xd71a1a'
+      green:   '0x57ba37'
+      yellow:  '0xf0d50c'
+      blue:    '0x91aadf'
+      magenta: '0xcf73e6'
+      cyan:    '0xb7cbf4'
+      white:   '0xdedede'
+      
+    # Bright colors
+    bright:
+      black:   '0x666666'
+      red:     '0xff0000'
+      green:   '0xd8fa3b'
+      yellow:  '0xe7c547'
+      blue:    '0xb7cbf4'
+      magenta: '0xb77ee0'
+      cyan:    '0xa9c1de'
+      white:   '0xeeeeee'
+
+  tender: &tender
+    # Default colors
+    primary:
+      background: '0x282828'
+      foreground: '0xeeeeee'
+  
+    # Normal colors
+    normal:
+      black:   '0x282828'
+      red:     '0xf43753'
+      green:   '0xc9d05c'
+      yellow:  '0xffc24b'
+      blue:    '0xb3deef'
+      magenta: '0xd3b987'
+      cyan:    '0x73cef4'
+      white:   '0xeeeeee'
+  
+    # Bright colors
+    bright:
+      black:   '0x4c4c4c'
+      red:     '0xf43753'
+      green:   '0xc9d05c'
+      yellow:  '0xffc24b'
+      blue:    '0xb3deef'
+      magenta: '0xd3b987'
+      cyan:    '0x73cef4'
+      white:   '0xfeffff'
+  onedark: &onedark
+    # Default colors
+    primary:
+      background: '0x1e2127'
+      foreground: '0xabb2bf'
+  
+    # Normal colors
+    normal:
+      black:   '0x1e2127'
+      red:     '0xe06c75'
+      green:   '0x98c379'
+      yellow:  '0xd19a66'
+      blue:    '0x61afef'
+      magenta: '0xc678dd'
+      cyan:    '0x56b6c2'
+      white:   '0xabb2bf'
+  
+    # Bright colors
+    bright:
+      black:   '0x5c6370'
+      red:     '0xe06c75'
+      green:   '0x98c379'
+      yellow:  '0xd19a66'
+      blue:    '0x61afef'
+      magenta: '0xc678dd'
+      cyan:    '0x56b6c2'
+      white:   '0xffffff'
+  deus: &deus
+    # Default colors
+    primary:
+      background: '#282c34'
+      foreground: '#eaeaea'
+    # Normal colors
+    normal:
+      black:   '#242a32'
+      red:     '#d54e53'
+      green:   '#98c379'
+      yellow:  '#e5c07b'
+      blue:    '#83a598'
+      magenta: '#c678dd'
+      cyan:    '#70c0ba'
+      white:   '#eaeaea'
+    # Bright colors
+    bright:
+      black:   '#666666'
+      red:     '#ec3e45'
+      green:   '#90c966'
+      yellow:  '#edbf69'
+      blue:    '#73ba9f'
+      magenta: '#c858e9'
+      cyan:    '#2bcec2'
+      white:   '#ffffff'
+colors: *tokyonight
+
+
+
+
+
+# Font configuration
+font:
+  # Normal (roman) font face
+  normal:
+    # Font family
+    #
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
+    family: Jetbrains Mono
+
+    # The `style` can be specified to pick a specific face.
+    #style: Regular
+
+  # Bold font face
+  bold:
+    # Font family
+    #
+    # If the bold family is not specified, it will fall back to the
+    # value specified for the normal font.
+    family: Jetbrains Mono
+
+    # The `style` can be specified to pick a specific face.
+    style: Bold
+
+  # Italic font face
+  italic:
+    # Font family
+    #
+    # If the italic family is not specified, it will fall back to the
+    # value specified for the normal font.
+    family: Jetbrains Mono
+
+    # The `style` can be specified to pick a specific face.
+    style: Italic
+
+  # Bold italic font face
+  bold_italic:
+    # Font family
+    #
+    # If the bold italic family is not specified, it will fall back to the
+    # value specified for the normal font.
+    family: Jetbrains Mono
+
+    # The `style` can be specified to pick a specific face.
+    style: Bold Italic
+
+  # Point size
+  size: 14.0
+
+window:
+  dynamic_padding: true
+  opacity: 1
+  columns: 133
+  lines: 40
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape
+    #
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    #shape: Block
+
+    # Cursor blinking state
+    #
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: Always
+  # Cursor blinking interval in milliseconds.
+  blink_interval: 750
+
+mouse:
+
+  # If this is `true`, the cursor is temporarily hidden when typing.
+  hide_when_typing: true
+
